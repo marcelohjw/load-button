@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#search-button {
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+#search-button:hover {
+    background-color: rgb(255, 68, 99);
+} 
+
+
+#search-button:active {
+    background-color: rgb(153, 21, 47);
+}
+
+#search-button .loading {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 5px solid rgba(0,0,0,0.2);
+}
+
+#search-button h3 {
+    margin: 0;
+    padding: 0;
+}
